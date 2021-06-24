@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".View.MainActivity">
+
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="281dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="78dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/id_countup"
+        android:layout_width="297dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="COUNT-UP"
+        android:textStyle="bold"
+        android:translationZ="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_text" />
+
+    <Button
+        android:id="@+id/id_cuontdwon"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:text="CUONT-DWON"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/id_countup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_countup"
+        app:layout_constraintTop_toBottomOf="@+id/id_countup" />
+
+    <Button
+        android:id="@+id/id_reset"
+        android:layout_width="295dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="RESET"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/id_cuontdwon"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/id_cuontdwon"
+        app:layout_constraintTop_toBottomOf="@+id/id_cuontdwon" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
